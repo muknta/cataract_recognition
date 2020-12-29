@@ -9,8 +9,9 @@ verify_ssl = true
 fastapi = "*"
 uvicorn = "*"
 python-multipart = "*"
+tensorflow = "*"
 efficientnet = "*"
-h5py = "==2.8.0"
+
 openpyxl = "*"
 keras = "*"
 scikit-build = "*"
