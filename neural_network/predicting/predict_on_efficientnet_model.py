@@ -20,7 +20,7 @@ def normalize_example(img):
 
 
 def predict_cataract_efficent(image_path):
-    loaded_efficientnet_model = tf.keras.models.load_model('../efficientnet-b0_model.h5')
+    loaded_efficientnet_model = tf.keras.models.load_model('../../efficientnet-b0_model.h5')
     effi_example = create_one_example(image_path, IMG_WIDTH, IMG_HEIGHT)
     effi_example = normalize_example(effi_example)
 
